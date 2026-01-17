@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Air University Kamra - Final Semester Result 2026</title>
+<style>
+    body {
+        font-family: Arial, Helvetica, sans-serif;
+        background-color: #f4f6f8;
+        margin: 0;
+        padding: 0;
+    }
+
+    /* Header */
+    header {
+        background-color: #003366;
+        color: white;
+        padding: 20px 30px;
+        text-align: center;
+        font-weight: bold;
+        font-size: 24px;
+        border-bottom: 4px solid #0055a5;
+    }
+
+    /* Navigation */
+    nav {
+        background-color: #0055a5;
+        display: flex;
+        justify-content: center;
+    }
+
+    nav a {
+        color: white;
+        text-decoration: none;
+        padding: 12px 25px;
+        font-weight: bold;
+    }
+
+    nav a:hover {
+        background-color: #003366;
+    }
+
+    /* Search box */
+    .search-box {
+        background-color: white;
+        width: 95%;
+        max-width: 500px;
+        margin: 30px auto;
+        padding: 25px;
+        border-radius: 10px;
+        text-align: center;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .search-box input {
+        width: 80%;
+        padding: 12px;
+        margin: 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+        font-size: 16px;
+    }
+
+    .search-box button {
+        padding: 12px 25px;
+        background-color: #003366;
+        color: white;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 16px;
+    }
+
+    .search-box button:hover {
+        background-color: #0055a5;
+    }
+
+    /* Quick Links / Official Links */
+    .quick-links {
+        width: 95%;
+        max-width: 700px;
+        background-color: white;
+        margin: 20px auto;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .quick-links h3 {
+        color: #003366;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #003366;
+        padding-bottom: 5px;
+    }
+
+    .quick-links p, .quick-links a {
+        font-size: 16px;
+        margin: 8px 0;
+        color: #003366;
+        text-decoration: none;
+    }
+
+    .quick-links a:hover {
+        text-decoration: underline;
+    }
+
+    /* Result card */
+    .result-card {
+        background-color: white;
+        width: 95%;
+        max-width: 800px;
+        margin: 20px auto;
+        border-radius: 10px;
+        box-shadow: 0 8px 25px rgba(0,0,0,0.15);
+        overflow: hidden;
+        border: 1px solid #ccc;
+    }
+
+    .result-card .banner {
+        background-color: #003366;
+        color: white;
+        padding: 15px;
+        font-size: 20px;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .result-content {
+        padding: 20px;
+    }
+
+    .result-content h3 {
+        color: #003366;
+        margin-bottom: 15px;
+        font-weight: bold;
+    }
+
+    /* Table styling */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+        margin-top: 15px;
+        font-size: 15px;
+    }
+
+    th, td {
+        border: 1px solid #003366;
+        padding: 10px;
+        text-align: center;
+    }
+
+    th {
+        background-color: #003366;
+        color: white;
+        font-weight: bold;
+    }
+
+    td {
+        font-size: 15px;
+    }
+
+    /* GPA summary */
+    .gpa-summary {
+        text-align: center;
+        font-weight: bold;
+        font-size: 17px;
+        padding: 10px;
+        border-top: 2px solid #003366;
+        margin-top: 15px;
+    }
+
+    /* Print button */
+    .print-btn {
+        background-color: #28a745;
+        color: white;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+        float: right;
+        margin-top: 10px;
+    }
+
+    .print-btn:hover {
+        background-color: #218838;
+    }
+
+    /* Contact section */
+    .contact-section {
+        width: 95%;
+        max-width: 700px;
+        background-color: white;
+        margin: 40px auto;
+        padding: 25px;
+        border-radius: 10px;
+        box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+    }
+
+    .contact-section h3 {
+        color: #003366;
+        margin-bottom: 15px;
+        border-bottom: 2px solid #003366;
+        padding-bottom: 5px;
+    }
+
+    .contact-section p, .contact-section a {
+        font-size: 16px;
+        margin: 8px 0;
+        color: #003366;
+        text-decoration: none;
+    }
+
+    .contact-section a:hover {
+        text-decoration: underline;
+    }
+
+    /* Footer */
+    footer {
+        background-color: #003366;
+        color: white;
+        text-align: center;
+        padding: 12px;
+        margin-top: 40px;
+    }
+
+    @media(max-width:600px){
+        .search-box input { width: 90%; }
+        .result-card { padding: 0; }
+        .result-content { padding: 15px; }
+        .contact-section, .quick-links { padding: 15px; }
+    }
+</style>
+</head>
+<body>
+
+<!-- Header -->
+<header>
+    Air University Kamra - Final Semester Result 2026
+</header>
+
+<!-- Navigation -->
+<nav>
+    <a href="https://aack.au.edu.pk/" target="_blank">Home</a>
+    <a href="#">Results</a>
+    <a href="#contact">Contact</a>
+</nav>
+
+<!-- Search box -->
+<div class="search-box">
+    <h2>Enter AU Registration ID</h2>
+    <input type="text" id="searchId" placeholder="Enter AU Registration ID">
+    <br>
+    <button onclick="viewResult()">View Result</button>
+</div>
+
+<!-- Quick Links -->
+<div class="quick-links">
+    <h3>Quick Links</h3>
+    <p><a href="https://aack.au.edu.pk/" target="_blank">Home</a></p>
+    <p><a href="https://aack.au.edu.pk/admissions/" target="_blank">Admissions</a></p>
+    <p><a href="https://aack.au.edu.pk/results/" target="_blank">Results</a></p>
+    <p><a href="https://aack.au.edu.pk/academic-calendar/" target="_blank">Academic Calendar</a></p>
+    <p><a href="https://aack.au.edu.pk/departments/" target="_blank">Departments</a></p>
+</div>
+
+<!-- Result card -->
+<div class="result-card" id="output"></div>
+
+<!-- Contact Section -->
+<div class="contact-section" id="contact">
+    <h3>Air University Kamra Campus Contact</h3>
+    <p>Website: <a href="https://aack.au.edu.pk/" target="_blank">https://aack.au.edu.pk/</a></p>
+    <p>Phone: 057‑9153200</p>
+    <p>Email: info@aack.au.edu.pk</p>
+    <p>Address: Air University Aerospace & Aviation Campus, Kamra, Attock, Pakistan</p>
+</div>
+
+<!-- Footer -->
+<footer>
+    &copy; 2026 Air University Kamra | All Rights Reserved
+</footer>
+
+<script>
+let results = [
+    {
+        id: "245137",
+        name: "Muzamil Suleman",
+        program: "BS Aviation Management",
+        semester: "F-24",
+        credits: 16,
+        gpa: 2.913,
+        courses: [
+            {course: "Mathematics and Logic 2", credit: 3, grade: "C+", points: "6.9"},
+            {course: "Intro to Flight Operation", credit: 3, grade: "B+", points: "9.9"},
+            {course: "Intro to Human Factor", credit: 3, grade: "A-", points: "11.1"},
+            {course: "Islamic Studies", credit: 2, grade: "B", points: "6"},
+            {course: "Intro to Environmental Science", credit: 3, grade: "B-", points: "8.1"},
+            {course: "Civics and Community Engagement", credit: 2, grade: "C+", points: "4.6"}
+        ]
+    }
+];
+
+function viewResult() {
+    let id = document.getElementById("searchId").value.trim();
+    let student = results.find(s => s.id === id);
+    let output = document.getElementById("output");
+
+    if(!student){
+        output.innerHTML = "<div class='result-content'><p style='color:red; font-weight:bold;'>Result not found!</p></div>";
+        return;
+    }
+
+    let html = `
+        <div class="banner">Final Semester Result 2026</div>
+        <div class="result-content">
+        <h3>Student Information</h3>
+        <p><b>Name:</b> ${student.name}</p>
+        <p><b>AU Registration ID:</b> ${student.id}</p>
+        <p><b>Program:</b> ${student.program}</p>
+        <p><b>Semester:</b> ${student.semester}</p>
+
+        <h3>Course Result</h3>
+        <table>
+            <tr>
+                <th>Course</th>
+                <th>Credit</th>
+                <th>Grade</th>
+                <th>Grade Points</th>
+            </tr>`;
+
+    student.courses.forEach(c=>{
+        html += `
+        <tr>
+            <td>${c.course}</td>
+            <td>${c.credit}</td>
+            <td>${c.grade}</td>
+            <td>${c.points}</td>
+        </tr>`;
+    });
+
+    html += `</table>
+    <div class="gpa-summary">
+        Total Credits: ${student.credits} | Overall GPA: ${student.gpa}
+    </div>
+    <button class="print-btn" onclick="window.print()">Print Result</button>
+    </div>`;
+
+    output.innerHTML = html;
+}
+</script>
+
+</body>
+</html>
